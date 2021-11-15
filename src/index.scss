@@ -1,4 +1,7 @@
 @import './components/styles/global.scss';
+@import './components/styles/breakpoints';
+@import "./components/styles/LoginUI";
+@import "./components/styles/Login";
 body,
 html {
   margin: 0;

@@ -4,4 +4,16 @@ $hospital-green: #acd9b2;
 $white: #ffffff;
 $black: #000000;
 
-$primary-font: 'Quicksand', sans-serif;
+$primary-font: "Quicksand", sans-serif;
+
+@mixin size($size) {
+    @if $size== "sm" {
+        font-size: 14px;
+    } @else {
+        @if $size== "md" {
+            font-size: 16px;
+        } @else {
+            font-size: 18px;
+        }
+    }
+}
