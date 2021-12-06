@@ -1,5 +1,5 @@
 import React from 'react'
-import { ResetPassword } from './ResetPassword'
+import { MyAccount } from './MyAccount'
 import './styles/App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <ResetPassword />
+      <MyAccount />
     </div>
   )
 }

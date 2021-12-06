@@ -1,42 +1,5 @@
-.form-container {
-    display: grid;
-    grid-template-rows: 1fr auto;
-    width: 90%;
-    max-width: 339px;
-    align-self: start;
-    font-family: $primary-font;
-    @include media(desktop-s){
-       align-self: center
+.end{
+    @include media(desktop-s) {
+        align-self: flex-end;
     }
-    & .title {
-        @include size("lg");
-        margin: 0 auto 8px;
-        font-weight: 700;
-    }
-    & .subtitle{
-        @include size("lg");
-        color: $very-light-pink;
-        margin: 0 auto 44px;
-        font-weight: 500;
-    }
-    & form{
-        display: flex;
-        flex-direction: column;
-        & label{
-            @include size("sm");
-            font-weight: 700;
-            margin-bottom: 6px;
-        }
-        & input{
-            background-color: $text-input-field;
-            height: 44px;
-            border: none;
-            border-radius: 10px;
-            margin-bottom: 24px;
-            @include size("md");
-        }
-        & .primary-button{
-           @include primary-button;
-        }
-    } 
 }
