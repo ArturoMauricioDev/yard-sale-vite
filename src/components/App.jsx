@@ -1,5 +1,5 @@
 import React from 'react'
-import { MyAccount } from './MyAccount'
+import { ProductList } from './ProductList'
 import './styles/App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <MyAccount />
+      <ProductList />
     </div>
   )
 }

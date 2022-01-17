@@ -1,22 +1,22 @@
-@import './components/styles/global.scss';
-@import './components/styles/breakpoints';
+@import "./components/styles/global.scss";
+@import "./components/styles/breakpoints";
 @import "./components/styles/NewPasswordUI";
 @import "./components/styles/NewPassword";
 @import "./components/styles/ResetPassword";
 @import "./components/styles/LoginUI";
 @import "./components/styles/Login";
 @import "./components/styles/CreateAccount";
+@import "./components/styles/ProductList";
+@import "./components/styles/Product";
 body,
 html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: $primary-font;
 }
-div.focus{
+div.focus {
   outline: none;
 }
-
-

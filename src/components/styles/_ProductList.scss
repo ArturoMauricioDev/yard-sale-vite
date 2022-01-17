@@ -1,0 +1,15 @@
+.main-container {
+    margin: 0 12px;
+    @include media(desktop-s) {
+        margin: 0 40px;
+    }
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 169px);
+    gap: 12px;
+    place-content: center;
+    @include media(desktop-s) {
+        grid-template-columns: repeat(auto-fill, 224px);
+    }
+}

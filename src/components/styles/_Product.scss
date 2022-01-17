@@ -1,0 +1,37 @@
+.product-card {
+    width: 100%;
+    & img {
+        width: 100%;
+        height: 163px;
+        border-radius: 20px;
+        object-fit: cover;
+        @include media(desktop-s) {
+            height: 216px;
+        }
+    }
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 12px;
+        & div p:nth-child(1) {
+            font-weight: 700;
+            @include size("md");
+            margin-top: 0px;
+            margin-bottom: 4px;
+        }
+        & div p:nth-child(2) {
+            font-weight: 400;
+            @include size("sm");
+            color: $text-gray;
+            margin: 0;
+        }
+        & figure {
+            margin: 0;
+            & img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
