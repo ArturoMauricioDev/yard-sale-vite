@@ -1,0 +1,29 @@
+.mobile-menu {
+    padding: 40px;
+    color: $black;
+    font-weight: 700;
+    & p {
+        margin: 40px 0px 4px 0px;
+    }
+    & ul {
+        padding: 0;
+        & li {
+            margin-top: 36px;
+            list-style: none;
+        }
+        .email {
+            font-weight: 300;
+            margin-top: 88px;
+            @include size("sm");
+        }
+        .sign-out {
+            margin-top: 6px;
+            @include size("sm");
+            color: $hospital-green;
+        }
+    }
+    &--others {
+        padding-bottom: 40px;
+        border-bottom: 1px solid $gray-border-botton;
+    }
+}

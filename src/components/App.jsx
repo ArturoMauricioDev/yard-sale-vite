@@ -1,5 +1,5 @@
 import React from 'react'
-import { MenuDesktop } from './MenuDesktop'
+import { MenuMobile } from './MenuMobile'
 import './styles/App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <MenuDesktop />
+      <MenuMobile />
     </div>
   )
 }
