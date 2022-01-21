@@ -1,0 +1,25 @@
+.article {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    & figure {
+        margin: 0;
+        & img {
+            width: 76px;
+            height: 76px;
+            border-radius: 20px;
+        }
+    }
+    & p:nth-child(2) {
+        color: $text-gray;
+        font-weight: 400;
+        @include size("sm");
+    }
+    & p:nth-child(3) {
+        color: $text-price;
+        font-weight: 700;
+        @include size("md");
+    }
+}

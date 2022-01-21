@@ -1,5 +1,5 @@
 import React from 'react'
-import { MenuMobile } from './MenuMobile'
+import { MyOrder } from './MyOrder'
 import './styles/App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <MenuMobile />
+      <MyOrder />
     </div>
   )
 }
