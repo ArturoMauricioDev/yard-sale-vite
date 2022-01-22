@@ -1,0 +1,32 @@
+.my-orders-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    margin-bottom: 8px;
+
+    padding: 0px 12px 0px 18px;
+    & p {
+        display: flex;
+        flex-direction: column;
+        & span:nth-child(1) {
+            @include size("md");
+            font-weight: 700;
+        }
+        & span:nth-child(2) {
+            @include size("sm");
+            font-weight: 400;
+            color: $text-gray;
+        }
+    }
+    & .right-arrow {
+        width: 90px;
+        display: flex;
+        justify-content: space-between;
+        & p {
+            @include size("md");
+            font-weight: 700;
+        }
+    }
+}
