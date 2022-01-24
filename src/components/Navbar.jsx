@@ -17,7 +17,10 @@ const Navbar = () => {
             </div>
             <div className="navbar-right">
                 <span>camilayokoo@gmail.com</span>
-                <img src="https://svgshare.com/i/dag.svg" alt="shopping cart" />
+                <div className="navbar-right__shopping-cart">
+                    <img src="https://svgshare.com/i/dfT.svg" alt="shopping cart" />
+                    <div>2</div>
+                </div>
             </div>
 
         </nav>
